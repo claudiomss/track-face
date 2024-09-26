@@ -66,6 +66,7 @@ app.post("/setDB", cors(), async (req, res) => {
     utm_medium,
     utm_content,
     cmc_adid,
+    fbclid,
     _fbc,
     _fbp,
     url,
@@ -79,6 +80,7 @@ app.post("/setDB", cors(), async (req, res) => {
     utm_medium,
     utm_content,
     cmc_adid,
+    fbclid,
     _fbc,
     _fbp,
     url,
@@ -132,6 +134,7 @@ app.post("/send-pageview", async (req, res) => {
     client_user_agent: req.headers["user-agent"],
     fbc: req.body._fbc,
     fbp: req.body._fbp,
+    fbclid: req.body.fbclid,
   }
 
   customData = {
@@ -168,6 +171,7 @@ app.post("/send-pre-checkout", async (req, res) => {
     client_user_agent: req.headers["user-agent"],
     fbc: req.body._fbc,
     fbp: req.body._fbp,
+    fbclid: req.body.fbclid,
   }
 
   customData = {
@@ -207,6 +211,7 @@ app.post("/send-initiate-checkout", async (req, res) => {
     client_user_agent: req.headers["user-agent"],
     fbc: req.body._fbc,
     fbp: req.body._fbp,
+    fbclid: req.body.fbclid,
   }
 
   customData = {
