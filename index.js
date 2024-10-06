@@ -40,7 +40,7 @@ function getPixel(pixelName) {
   const pixelId_CLD = "468525639505628"
 
   const accessToken_VN =
-    "EAAWuxATM5foBO5hBIsZC6EmAxHgFhow3DQ67zNAIkKaDxACbh4FVPOvrEbIlFhSu1IWIADFFZCtN8WOMWuGSHi0948jprP1qNQr2j1oeTj7CZCPBWe7JfF00MPsJKsIrp3puVLtbSZCgOBHq4z0eXlXFsO5iOGZA2l40qb2gaIRB1d3qpE9G2vsh2B4uh6lLfiAZDZD"
+    "EAAWuxATM5foBO0Gv9c81of4x32UoFsZAzHSh72iHsluV8lOQ1d0PzK9J80vc6CKRBxYLjtsD26plssEEKQdAMubf8Y3RgyXx5OaRatQOquauTwntp8KY5x71kHdI6fmnpkQ8M7oE02PRcUkAVZBd5sBSXbkA01QJmpxRCuWHhbvS1IWik0L4gqJcjCRZBiBgAZDZD"
   const pixelId_VN = "2270264183324028"
 
   if (pixelName == "Claudio") {
