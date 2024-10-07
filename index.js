@@ -134,7 +134,6 @@ app.post("/send-pageview", async (req, res) => {
     client_user_agent: req.headers["user-agent"],
     fbc: req.body._fbc,
     fbp: req.body._fbp,
-    fbclid: req.body.fbclid,
   }
 
   customData = {
@@ -171,7 +170,6 @@ app.post("/send-pre-checkout", async (req, res) => {
     client_user_agent: req.headers["user-agent"],
     fbc: req.body._fbc,
     fbp: req.body._fbp,
-    fbclid: req.body.fbclid,
   }
 
   customData = {
@@ -211,7 +209,6 @@ app.post("/send-initiate-checkout", async (req, res) => {
     client_user_agent: req.headers["user-agent"],
     fbc: req.body._fbc,
     fbp: req.body._fbp,
-    fbclid: req.body.fbclid,
   }
 
   customData = {
