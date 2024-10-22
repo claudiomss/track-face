@@ -89,6 +89,18 @@ app.post("/setDB", cors(), async (req, res) => {
   })
 })
 
+app.post("/setDataGoogleAds", cors(), async (req, res) => {
+  const dataReq = req.body
+  const { gclid, url, page, name } = dataReq
+
+  await supabase.from("Google_Ads").insert({
+    gclid,
+    url,
+    page,
+    name,
+  })
+})
+
 async function sendEventToFacebook(
   eventName,
   urlSite,
